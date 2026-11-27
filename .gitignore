@@ -1,0 +1,27 @@
+# 의존성·빌드 결과
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 비밀 값 (백엔드와 같은 규칙: 비밀 값은 환경 변수·.env에만, 예시 파일만 올린다)
+.env
+.env.*
+!.env.example
+
+# Claude Code 로컬 파일 (백엔드 docs/dev/conventions.md 10절과 같음: CLAUDE.md는 Git에 올리지 않는다)
+CLAUDE.md
+CLAUDE.local.md
+.claude/
+
+# 로그
+*.log
+npm-debug.log*
